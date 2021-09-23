@@ -25,7 +25,6 @@
 		"suitecrm"
 	],
 	"require": {
-		"php": ">=5.5.0",
 		"league/oauth2-client": "^2.0"
 	},
 	"require-dev": {
@@ -42,5 +41,10 @@
 		"psr-4": {
 			"Chadhutchins\\OAuth2\\Client\\Test\\": "tests/src/"
 		}
-	}
+	},
+	"extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
 }
